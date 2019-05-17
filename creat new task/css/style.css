@@ -454,7 +454,7 @@ p{
 
 #customer,
 #development,
-.title .title-text {
+.title + input {
   width: 255px;
   height: 30px;
   margin-bottom: 20px;
@@ -465,7 +465,7 @@ p{
   outline: 0;
 }
 
-.title .title-text {
+.title + input{
   width: 242px;
   border: 1px solid #00008b;
 }
