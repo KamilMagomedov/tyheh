@@ -16,7 +16,7 @@
     <%= form.label :customer_id %>
     <%= form.select :customer_id, options_for_select(Customer.all.pluck(:name, :id), selected: form.object.customer_id)%>
   </div>
-<br/>
+      <img src="/assets/logo.jpg" alt="logo">
   <div class="field type-e">
     <%= form.label :type_id %>
     <%= form.select :type_id, options_for_select(TaskType.all.pluck(:name, :id), selected: form.object.type_id)%>
