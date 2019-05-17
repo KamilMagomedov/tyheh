@@ -19,7 +19,7 @@ task_types = [
 ]
 
 task_types.each do |task|
-    # TaskType.create(task)
+    TaskType.create(task)
 end
 
 customers = [
